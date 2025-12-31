@@ -57,7 +57,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
 
   /* ---------- Plugins ---------- */
   plugins: [
-    "./plugins/withNotifeeRepo",
+    "./plugins/withNotifeePlugin",
     "@react-native-firebase/app",
     "@react-native-firebase/messaging",
 
