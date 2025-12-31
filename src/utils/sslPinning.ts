@@ -7,9 +7,7 @@ export async function setupSslPinning() {
           includeSubdomains: false,
           publicKeyHashes: [
             // Primary key
-            "-------"
-            // "vFchZcBw22OObdElOlFSk/x8Mm7f6coVBmGh9D52bfI=",
-            // "abchZcBw22OObdElOlFSk/x8Mm7f6coVBmGh9D52bfI=", // Dummy key please remove this before production
+            "abcdefghijklmnopqrst// Dummy key please remove this add real one , NOTE : YOU HAVE TO ADD 2 KEYS ATLEAST
   
             // 🔴 REQUIRED on iOS — ask DevOps for backup key
             // "BACKUP_PUBLIC_KEY_HASH_HERE"
